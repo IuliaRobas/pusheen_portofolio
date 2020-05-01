@@ -4,4 +4,4 @@ Pusheen inspired landing page and portofolio design. Home, About, Photos and Con
 
 <b>Technologies used: HTML, Bootstrap, SCSS</b>
 
-![](pusheen_portofolio.gif)
+![](pusheen.gif)
