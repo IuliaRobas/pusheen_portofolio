@@ -1,0 +1,27 @@
+{
+    "name": "portofolio",
+    "version": "1.0.0",
+    "description": "Portofolio website",
+    "main": "index.js",
+    "homepage": "https://iuliarobas.github.io/pusheen_portofolio",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+        "deploy": "gh-pages -d dist"
+    },
+    "author": "Iulia",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "gh-pages": "^2.1.1",
+        "node-sass": "^4.12.0",
+        "png-to-svg": "^1.0.5"
+    },
+    "devDependencies": {
+        "eslint": "^6.1.0",
+        "eslint-config-standard": "^13.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-node": "^9.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.0"
+    }
+}
